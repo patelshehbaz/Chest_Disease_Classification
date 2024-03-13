@@ -10,3 +10,40 @@
 6. Update the pipeline
 7. Update the main.py
 8. Update the dvc.yaml
+
+How to run?
+
+```
+conda create -n chest python=3.8 -y
+```
+
+```
+conda activate chest
+```
+
+```
+pip install -r requirements.txt
+```
+
+```
+python app.py
+```
+
+MLFLOW_TRACKING_URI=https://dagshub.com/patelshehbaz/mlflow-experiment-demo.mlflow \
+MLFLOW_TRACKING_USERNAME=patelshehbaz \
+MLFLOW_TRACKING_PASSWORD=480d774605de403539ede34b17f4416d239022c4 \
+python script.py
+
+### Run from bash terminal
+
+```
+export MLFLOW_TRACKING_URI=https://dagshub.com/patelshehbaz/mlflow-experiment-demo.mlflow
+```
+
+```
+export MLFLOW_TRACKING_USERNAME=patelshehbaz
+```
+
+```
+export MLFLOW_TRACKING_PASSWORD=480d774605de403539ede34b17f4416d239022c4
+```
